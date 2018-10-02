@@ -15,8 +15,8 @@ function init() {
     w = can.width;
     h = can.height;
     document.addEventListener("mousemove", mousemove, false);
-    girlPic.src = "img/girl.jpg";
-    starPic.src = "img/star.png";
+    girlPic.src = "girl.jpg";
+    starPic.src = "star.png";
 
     for (var i = 0; i < num; i++) {
         var obj = new starObj();
